@@ -4,7 +4,7 @@ node_js:
 
 jobs:
   include:
-    - stage: test
-      script: yarn test
     - stage: lint
       script: yarn lint
+    - stage: test
+      script: yarn test
